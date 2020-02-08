@@ -9,6 +9,6 @@ Processing_all_data_X对数据进行处理包括：
 
 Neural_network_X和Logistic_regression_X分别读取encoded_all_datad的有标签数据，输入模型后进行训练，各自再对无flag部分打上标签，最后整体数据的flag情况：
 
-![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/edit/master/pictures/log.png)
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/log.png)
 
-![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/edit/master/pictures/neuron.png)
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/neuron.png)
