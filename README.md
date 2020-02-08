@@ -13,7 +13,6 @@ Processing_all_data_X对数据进行处理包括：
 
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/neuron.png)
 
-
 4.利用logistic_regression对全部数据训练，当准确率达到接近98%时，输出权重，作图：
 
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/wordcloud.png)
@@ -22,11 +21,9 @@ Processing_all_data_X对数据进行处理包括：
 
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/weights.png)
 
-
 4.train_all_data_X包括两个模型的完整训练，模型分别使用对方的完整数据，都分出30%的训练集，准确率如图：
 
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/l_tes_acc.svg)
-
 
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/neura_valid_acc.svg)
 
