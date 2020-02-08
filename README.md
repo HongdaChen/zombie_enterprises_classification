@@ -7,8 +7,26 @@ Processing_all_data_X对数据进行处理包括：
 
 2.填充完缺失值后（以众数，平均数），三年取平均再与前四个表格合并，输出为encoded_all_data
 
-Neural_network_X和Logistic_regression_X分别读取encoded_all_datad的有标签数据，输入模型后进行训练，各自再对无flag部分打上标签，最后整体数据的flag情况：
+3.Neural_network_X和Logistic_regression_X分别读取encoded_all_datad的有标签数据，输入模型后进行训练，各自再对无flag部分打上标签，最后整体数据的flag情况：十分接近35:65，说明模型贴标签的准确率得到保证
 
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/log.png)
 
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/neuron.png)
+
+
+4.利用logistic_regression对全部数据训练，当准确率达到接近98%时，输出权重，作图：
+
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/wordcloud.png)
+
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/wordcloud2000.png)
+
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/weights.png)
+
+
+4.train_all_data_X包括两个模型的完整训练，模型分别使用对方的完整数据，都分出30%的训练集，准确率如图：
+
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/l_tes_acc.svg)
+
+
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/neura_valid_acc.svg)
+
