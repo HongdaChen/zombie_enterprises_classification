@@ -23,7 +23,9 @@ Processing_all_data_X对数据进行处理包括：
 
 4.train_all_data_X包括两个模型的完整训练，模型分别使用对方的完整数据，都分出30%的训练集，准确率如图：
 
+logistic_regression在测试集上的准确率
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/l_tes_acc.svg)
 
+Neural_network在测试集上的准确率
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/neura_valid_acc.svg)
 
