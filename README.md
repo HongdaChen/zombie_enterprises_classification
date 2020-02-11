@@ -27,5 +27,5 @@ logistic_regression在测试集上的准确率
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/l_tes_acc.svg)
 
 Neural_network在测试集上的准确率
-![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/neura_valid_acc.svg)
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/neuron_valid_acc.svg)
 
