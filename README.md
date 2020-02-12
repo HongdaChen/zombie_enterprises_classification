@@ -10,6 +10,7 @@ using neural_network and logistic_regression model to complete a binary classifi
 **processing data**
 首先对我们的原始数据进行检查，发现数据集如下特点：
 训练集:僵尸企业:丢失标签=5073:9977 ，接近1:2
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/base.png)
 测试集:
 
 Processing_all_data_X对数据进行处理包括：
