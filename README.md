@@ -1,14 +1,13 @@
 # zombie_enterprises_classification
 using neural_network and logistic_regression model to complete a binary classification
 
-### raw data:
+## raw data:
 - 企业基本信息
 - 年报数据(三年)
 - 融资数据（三年）
 - 知识产权数据
 
-### processing data
-在Processing_all_data_X完成
+## processing data：(在Processing_all_data_X完成)
 
 首先对我们的原始数据进行**检查**，发现数据集如下特点:
 
