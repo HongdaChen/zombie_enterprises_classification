@@ -49,15 +49,53 @@ using neural_network and logistic_regression model to complete a binary classifi
 
 - 现在我们的这个数据表格有23个特征列,数据维度比较高,对于neural_network模型来说是可接受的，但为了让我们的数据适应更多的模型,同时又具有很好的可解释性，需要对主要特征进行提取。以下统计图将各个特征与flag的情况可视化出来，橙色代表僵尸企业，蓝色代表正常企业。由图可见，**纳税总额**和**净利润**对分类作用最为明显，其次是**主营业务收入，内部融资和贸易融资额度，股权融资成本，股权融资额度**。而其他特征作用不明显，可以考虑舍弃，经过后面模型的验证，这样做确实是合理的。
 
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/下载.png)
 
 - 提取出这些特征，再次做统计图，可以更清晰看出各个特征对分类的贡献。
 
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/下载(1).png)
+
+- 提取出的这些特征
+
+quan.png
+![]()
+
+## classification_model
+
+- ***logistic regression***
+
+logistic回归是一种广义线性回归（generalized linear model），与多重线性回归分析有很多相同之处。它们的模型形式基本上相同，都具有 wx + b，其中w和b是待求参数，其区别在于他们的因变量不同，多重线性回归直接将wx+b作为因变量，即y =wx+b,而logistic回归则通过函数L将wx+b对应一个隐状态p，p =L(wx+b),然后根据p 与1-p的大小决定因变量的值。如果L是logistic函数，就是logistic回归。简单来说，就是logistic回归会在线性回归后再加一层logistic函数的调用。logistic回归主要是进行二分类预测，Sigmod函数是最常见的logistic函数，因为Sigmod函数的输出的是是对于0~1之间的概率值，当概率大于0.5预测为1，小于0.5预测为0。
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,明天再写,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+模型训练结果:
+
+logistestacc.png
+
+logtrianloss.png
 
 
+- ***neural network*** 
 
-logistic_regression在测试集上的准确率
-![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/pictures/l_tes_acc.svg)
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,明天再写,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+模型训练结果:
 
-Neural_network在测试集上的准确率
-![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/neuron_valid_acc.svg)
+neuronvalidacc.png
+
+neutrainloss.png
+
+
+- ***SVM***
+,,,,,,
+- ***K-means***
+,,,,,,
+
+
+## Enterprise image
+
+leida.png
+
+## Find hyper-parameters about optimization
+
+,,,,,,,
+
+
 
