@@ -72,6 +72,7 @@ logistic回归是一种广义线性回归（generalized linear model），与多
 
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/logistestacc.png)
 
+
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/logtrianloss.png)
 
 
@@ -82,6 +83,7 @@ logistic回归是一种广义线性回归（generalized linear model），与多
 模型训练结果:
 
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/neuronvalidacc.png)
+
 
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/neutrainloss.png)
 
@@ -96,6 +98,7 @@ logistic回归是一种广义线性回归（generalized linear model），与多
 
 
 ## Enterprise image
+
 
 ![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/leida.png)
 
