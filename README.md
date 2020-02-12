@@ -57,41 +57,48 @@ using neural_network and logistic_regression model to complete a binary classifi
 
 - 提取出的这些特征
 
-quan.png
-![]()
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/quan.png)
+
 
 ## classification_model
 
 - ***logistic regression***
 
 logistic回归是一种广义线性回归（generalized linear model），与多重线性回归分析有很多相同之处。它们的模型形式基本上相同，都具有 wx + b，其中w和b是待求参数，其区别在于他们的因变量不同，多重线性回归直接将wx+b作为因变量，即y =wx+b,而logistic回归则通过函数L将wx+b对应一个隐状态p，p =L(wx+b),然后根据p 与1-p的大小决定因变量的值。如果L是logistic函数，就是logistic回归。简单来说，就是logistic回归会在线性回归后再加一层logistic函数的调用。logistic回归主要是进行二分类预测，Sigmod函数是最常见的logistic函数，因为Sigmod函数的输出的是是对于0~1之间的概率值，当概率大于0.5预测为1，小于0.5预测为0。
+
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,明天再写,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
 模型训练结果:
 
-logistestacc.png
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/logistestacc.png)
 
-logtrianloss.png
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/logtrianloss.png)
 
 
 - ***neural network*** 
 
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,明天再写,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
 模型训练结果:
 
-neuronvalidacc.png
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/neuronvalidacc.png)
 
-neutrainloss.png
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/neutrainloss.png)
 
 
 - ***SVM***
+
 ,,,,,,
+
 - ***K-means***
+
 ,,,,,,
 
 
 ## Enterprise image
 
-leida.png
+![Image text](https://github.com/HongdaChen/zombie_enterprises_classification/blob/master/picture/leida.png)
+
 
 ## Find hyper-parameters about optimization
 
