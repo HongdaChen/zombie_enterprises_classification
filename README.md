@@ -1,6 +1,17 @@
 # zombie_enterprises_classification
 using neural_network and logistic_regression model to complete a binary classification
 
+**raw data:**
+- 企业基本信息
+- 年报数据(三年)
+- 融资数据（三年）
+- 知识产权数据
+
+**processing data**
+首先对我们的原始数据进行检查，发现数据集如下特点：
+训练集:僵尸企业:丢失标签=5073:9977 ，接近1:2
+测试集:
+
 Processing_all_data_X对数据进行处理包括：
 
 1.先将后四个有关money的表格合并，是三年的数据，对每个企业ID的三个年份补充全，再将三年的数据分开发现每个年份之间的行数不一样，于是对三年都存在的ID取交集，再对前四个表格的ID取个交集，去掉了大约1000条数据。
